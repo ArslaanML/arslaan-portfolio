@@ -195,12 +195,12 @@ function App() {
                   Python · TensorFlow · Keras · NLP
                 </p>
                 <a
-                  href="https://github.com/yourusername/sentiment-fyp"
+                  href="https://huggingface.co/spaces/ArslaanML/ArslaanAhmedFYP"
                   target="_blank"
                   rel="noreferrer"
                   className="project-link"
                 >
-                  View on GitHub
+                  View on HuggingFaces
                 </a>
               </article>
             </div>
