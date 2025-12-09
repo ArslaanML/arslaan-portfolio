@@ -171,7 +171,7 @@ function App() {
                   Java · Android · SQLite · Firebase/Firestore
                 </p>
                 <a
-                  href="https://github.com/yourusername/planify"
+                  href="https://github.com/ArslaanML/Planify-Android-App"
                   target="_blank"
                   rel="noreferrer"
                   className="project-link"
