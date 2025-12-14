@@ -161,12 +161,14 @@ function App() {
               <article className="project-card">
                 <p className="project-label">Featured Project</p>
                 <h3 className="project-title">Planify – Study Planner App</h3>
-                <p className="project-body">
-                  Android app that helps students plan and track their study
-                  sessions. Built with Java, SQLite, and Firebase/Firestore,
-                  featuring task scheduling, statistics, dark mode, and offline
-                  support.
-                </p>
+
+                <ul className="project-points">
+                  <li>Android study planner app built with Java</li>
+                  <li>Offline-first design using SQLite</li>
+                  <li>Cloud sync with Firebase / Firestore</li>
+                  <li>Includes task scheduling, statistics, and dark mode</li>
+                </ul>
+
                 <p className="project-tech">
                   Java · Android · SQLite · Firebase/Firestore
                 </p>
@@ -185,12 +187,14 @@ function App() {
                 <h3 className="project-title">
                   Sentiment Analysis – Final Year Project
                 </h3>
-                <p className="project-body">
-                  Machine learning project using Python, TensorFlow and a
-                  Bi-LSTM model with attention to classify text sentiment.
-                  Includes data preprocessing, model training, evaluation, and
-                  experiments with different architectures.
-                </p>
+
+                <ul className="project-points">
+                  <li>Bi-LSTM neural network with attention mechanism</li>
+                  <li>Built using Python, TensorFlow, and Keras</li>
+                  <li>Text preprocessing, training, and evaluation pipeline</li>
+                  <li>Experiments with multiple model architectures</li>
+                </ul>
+
                 <p className="project-tech">
                   Python · TensorFlow · Keras · NLP
                 </p>
@@ -200,37 +204,42 @@ function App() {
                   rel="noreferrer"
                   className="project-link"
                 >
-                  View on HuggingFaces
+                  View on Hugging Face
+                </a>
+              </article>
+
+              <article className="project-card">
+                <p className="project-label">Featured Project</p>
+                <h3 className="project-title">
+                  LifeLens – Global Health Data Explorer
+                </h3>
+
+                <ul className="project-points">
+                  <li>Web application built with React and modern JavaScript</li>
+                  <li>
+                    Fetches real-world health and population data from a public
+                    API
+                  </li>
+                  <li>Interactive data visualisation using charts and tables</li>
+                  <li>Supports CSV data export for offline analysis</li>
+                  <li>Clean, responsive UI with light and dark mode support</li>
+                </ul>
+
+                <p className="project-tech">
+                  React · JavaScript · REST APIs · Data Visualisation
+                </p>
+
+                <a
+                  href="https://lifelensproject.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  View Live Site
                 </a>
               </article>
             </div>
           </section>
-
-          <article className="project-card">
-            <p className="project-label">Featured Project</p>
-            <h3 className="project-title">LifeLens – Global Health Data Explorer</h3>
-
-            <ul className="project-points">
-              <li>Web application built with React and modern JavaScript</li>
-              <li>Fetches real-world health and population data from a public API</li>
-              <li>Interactive data visualisation using charts and tables</li>
-              <li>Supports CSV data export for offline analysis</li>
-              <li>Clean, responsive UI with light and dark mode support</li>
-            </ul>
-
-            <p className="project-tech">
-              React · JavaScript · REST APIs · Data Visualisation
-            </p>
-
-            <a
-              href="https://github.com/yourusername/lifelens"
-              target="_blank"
-              rel="noreferrer"
-              className="project-link"
-            >
-              View on GitHub
-            </a>
-          </article>
 
           <section id="skills">
             <SectionTitle index={3}>Skills</SectionTitle>
