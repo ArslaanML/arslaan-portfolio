@@ -206,6 +206,32 @@ function App() {
             </div>
           </section>
 
+          <article className="project-card">
+            <p className="project-label">Featured Project</p>
+            <h3 className="project-title">LifeLens – Global Health Data Explorer</h3>
+
+            <ul className="project-points">
+              <li>Web application built with React and modern JavaScript</li>
+              <li>Fetches real-world health and population data from a public API</li>
+              <li>Interactive data visualisation using charts and tables</li>
+              <li>Supports CSV data export for offline analysis</li>
+              <li>Clean, responsive UI with light and dark mode support</li>
+            </ul>
+
+            <p className="project-tech">
+              React · JavaScript · REST APIs · Data Visualisation
+            </p>
+
+            <a
+              href="https://github.com/yourusername/lifelens"
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              View on GitHub
+            </a>
+          </article>
+
           <section id="skills">
             <SectionTitle index={3}>Skills</SectionTitle>
             <div className="skills-grid">
